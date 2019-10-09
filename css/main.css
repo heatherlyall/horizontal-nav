@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+  background-color: #dbd6cf;
+  font-family: sans-serif;
+  line-height: 1.5
+
+
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  font-family: 'Bevan';
+  display: block;
+  padding: .6em;
+  margin: .3em;
+  background-color: #79756f;
+  border-top: 3px solid #595652;
+  border-bottom: 3px solid #595652;
+
+}
+
+.planets li {
+  text-align: center;
+  display: inline-block;
+  margin: .3em;
+  padding: .5em .75em;
+  background-color: #713837;
+  color: #fff
+
+}
+.planets li a:hover {
+  background-color: #f33
+}
