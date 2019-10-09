@@ -40,7 +40,7 @@ h1 {
   color: #fff;
 }
 
-.planets a:hover {
+a:hover {
   background-color: #f33;
   width: 3px;
 }
